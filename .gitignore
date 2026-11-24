@@ -1,0 +1,11 @@
+# dependinte si rezultate de build
+node_modules/
+dist/
+dist-electron/
+
+# secrete (contine GH_TOKEN)
+.env
+
+# jurnale
+*.log
+npm-debug.log*
