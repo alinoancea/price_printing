@@ -1,0 +1,6 @@
+owner: alinoancea
+repo: price_printing
+provider: github
+channel: latest
+private: false
+updaterCacheDirName: imprimare-preturi-updater

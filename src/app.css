@@ -1,0 +1,125 @@
+body {
+  background: #dce9ff;
+}
+
+#root {
+  height: 100%;
+  min-height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.pn-card {
+  border: 0;
+  box-shadow: 0 10px 30px #10182814;
+}
+
+.pn-soft-border {
+  border: 1px solid #10182814;
+}
+
+.pn-table thead th {
+  z-index: 61;
+  top: 0;
+  background: #f8f9fa padding-box padding-box;
+  position: sticky;
+  inset-block-start: 0;
+  box-shadow: 0 2px 6px #10182814;
+  background-color: #f8f9fa !important;
+}
+
+.pn-products-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  border: 1px solid #10182814;
+  border-radius: 12px;
+  width: 100%;
+  overflow: visible;
+}
+
+.pn-products-table th,
+.pn-products-table td {
+  min-width: 0;
+}
+
+.pn-products-thead th {
+  background: #f8f9fa;
+  border-bottom: 1px solid #10182814;
+  font-weight: 600;
+}
+
+.pn-products-table td,
+.pn-products-table th {
+  padding: 12px;
+}
+
+.table-responsive.pn-table {
+  touch-action: pan-y;
+  overscroll-behavior: contain;
+  isolation: isolate;
+  padding-bottom: 8px;
+  position: relative;
+  overflow: hidden auto;
+}
+
+.pn-products-table tbody tr {
+  transition: background-color 0.15s ease-in-out;
+}
+
+.pn-zpl-modal {
+  background: #10182873;
+}
+
+.pn-zpl-block {
+  border-bottom: 1px solid #10182814;
+  padding-bottom: 0.75rem;
+}
+
+.pn-zpl-block:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.pn-zpl-pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: min(55vh, 28rem);
+}
+
+.pn-products-table tbody:after {
+  content: '';
+  height: 12px;
+  display: block;
+}
+
+.pn-products-table tbody tr:hover {
+  background: #0d6efd0f;
+}
+
+.pn-products-table tbody tr:last-child td {
+  padding-bottom: 20px;
+}
+
+.pn-selectable-row {
+  cursor: pointer;
+}
+
+.pn-selectable-row.pn-selected-row,
+.pn-selectable-row.pn-selected-row:hover {
+  background: #0d6efd1f;
+}
+
+.pn-selectable-row.pn-selected-row td,
+.pn-selectable-row.pn-selected-row:hover td {
+  background: #0d6efd1f !important;
+}
+
+.pn-mono {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
